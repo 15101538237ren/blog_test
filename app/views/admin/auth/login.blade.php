@@ -39,7 +39,9 @@
         {{ Form::submit('Login', array('class' => 'btn btn-inverse btn-login')) }}
       
       </div>
-
+      <div>
+        <a href="{{ URL::route('reminder.remind.get') }}" class="btn btn-primary">忘记密码</a>
+      </div>
     {{ Form::close() }}
   
   </div>
